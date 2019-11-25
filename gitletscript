@@ -1,0 +1,8 @@
+#!/bin/bash
+
+java gitlet.Main init
+java gitlet.Main add manifest.mf
+java gitlet.Main commit test
+#java gitlet.Main rm manifest.mf
+java gitlet.Main add gitletreestart
+java gitlet.Main commit tes2
